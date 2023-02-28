@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Text, View, StyleSheet, Button } from 'react-native';
 import { Audio } from 'expo-av';
 
-export default function App() {
+export default function RecordingSounds() {
   const [recording, setRecording] = React.useState();
 
   async function startRecording() {
